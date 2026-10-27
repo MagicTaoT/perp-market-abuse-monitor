@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perp-market-abuse-monitor"
+version = "0.1.0"
+description = "Read-only perpetual market structure and abuse-signal research monitor"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+perp-market-abuse-monitor = "gold_basis_mm_bot.squeeze_engine.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["gold_basis_mm_bot", "gold_basis_mm_bot.squeeze_engine"]

@@ -1,0 +1,29 @@
+# Private credentials and local configuration
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+config.json
+config.*.json
+!config.example.json
+
+# Runtime data and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.jsonl
+*.jsonl.gz
+data/
+raw_universe/
+artifacts/
+output/
+*.log
+.DS_Store

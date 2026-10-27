@@ -1,0 +1,13 @@
+{
+  "assets": ["IRYS"],
+  "poll_interval_seconds": 300,
+  "universe_scan_interval_seconds": 900,
+  "universe_retention_days": 21,
+  "tokenomics_refresh_interval_seconds": 86400,
+  "tokenomics_max_assets": 75,
+  "data_dir": "./data",
+  "dashboard_host": "127.0.0.1",
+  "dashboard_port": 8770,
+  "http_timeout_seconds": 8,
+  "http_retries": 1
+}
